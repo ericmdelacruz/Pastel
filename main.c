@@ -43,8 +43,6 @@ long combinatoria (int num, int pos)
 
 int main(int argc, char *argv[])
 {
-  //int posicionesRico = FILAS_COLUMNAS;
-  //int restoPosiciones = FILAS_COLUMNAS * (FILAS_COLUMNAS - 3);
   int filasColumnasRicas = FILAS_COLUMNAS * 2;
   long ingredientesRicos = combinatoria(INGREDIENTES_RICOS, FILAS_COLUMNAS);
   long restoIngredientes = combinatoria(RESTO_INGREDIENTES, FILAS_COLUMNAS * (FILAS_COLUMNAS - 1));
